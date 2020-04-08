@@ -11,5 +11,5 @@ def hello_world():
 	return 'Hello World!'
 
 if __name__ == '__main__':
-	app.run(host='0.0.0.0', debug = True)#'219.255.40.90'
+	app.run(host='0.0.0.0', debug = True)
 	#app.run()을 app.run(host='0.0.0.0')으로 변경하면 외부에서 접근 가능한 것으로 설정
